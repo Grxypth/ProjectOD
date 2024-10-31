@@ -34,3 +34,6 @@ class Greeter # Class Tanımlama
   end
 end
 Greeter.new("Burak").say_hi
+Greeter.respond_to?("say_hi")
+Greeter.name = "Ali"
+Greeter.say_hi
