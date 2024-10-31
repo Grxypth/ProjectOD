@@ -19,3 +19,4 @@ for gol in 0..9
   puts "gol for loop = #{gol}"
   gol += 1
 end
+9.times { puts "gol times loop = #{gol}" }
